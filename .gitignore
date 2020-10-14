@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+dist/
+
+# Editor directories and files
+.idea
+*.iml								# idea对module 配置信息，infomation of module
+.vscode
+*.suo
+*.sln
+
+# Compiled class file
+*.class
