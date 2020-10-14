@@ -16,10 +16,10 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="PluginDemo">
-                <param name="android-package" value="cordova.plugin.plugindemo"/>
+                <param name="android-package" value="cordova.plugin.plugindemo.PluginDemo"/>
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <source-file src="src/android/PluginDemo.java" target-dir="src/cordova.plugin.plugindemo"/>
+        <source-file src="src/android/PluginDemo.java" target-dir="src/cordova/plugin/plugindemo/PluginDemo"/>
     </platform>
 </plugin>
