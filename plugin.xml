@@ -5,14 +5,6 @@
     <js-module name="PluginDemo" src="www/PluginDemo.js">
         <clobbers target="cordova.plugins.PluginDemo"/>
     </js-module>
-    <platform name="ios">
-        <config-file parent="/*" target="config.xml">
-            <feature name="PluginDemo">
-                <param name="ios-package" value="PluginDemo"/>
-            </feature>
-        </config-file>
-        <source-file src="src/ios/PluginDemo.m"/>
-    </platform>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="PluginDemo">
